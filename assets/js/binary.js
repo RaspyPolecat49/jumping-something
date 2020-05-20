@@ -1,4 +1,4 @@
-// meta={"simUrl":"https://trg-arcade.userpxt.io/v0.17.8/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"0.0.1","target":"arcade","targetVersion":"0.17.8","repo":"raspypolecat49/jumping-something"}
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v0.17.8/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"0.0.2","target":"arcade","targetVersion":"0.17.8","repo":"raspypolecat49/jumping-something"}
 // total=1360522 new=5.90% cached=88.65% other=5.44%
 (function (ectx) {
 'use strict';
@@ -440,7 +440,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P73704(s) {
+function _main___P86853(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -821,21 +821,21 @@ switch (step) {
   case 33:
     r0 = s.retval;
     s.tmp_0 = sprites_create__P56074_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex58983);
+    r0 = pxsim.image.ofBuffer(_hex86761);
     s.tmp_0.arg0 = r0;
     s.tmp_0.arg1 = globals.Player___56170;
     s.pc = 34; return s.tmp_0;
   case 34:
     r0 = s.retval;
-    globals.mySprite___58980 = (r0);
+    globals.mySprite___86758 = (r0);
     s.tmp_0 = Sprite_x__P56082_mk(s);
-    s.tmp_0.arg0 = globals.mySprite___58980;
+    s.tmp_0.arg0 = globals.mySprite___86758;
     s.tmp_0.arg1 = 20;
     s.pc = 35; return s.tmp_0;
   case 35:
     r0 = s.retval;
     s.tmp_0 = Sprite_ay__P56092_mk(s);
-    s.tmp_0.arg0 = globals.mySprite___58980;
+    s.tmp_0.arg0 = globals.mySprite___86758;
     s.tmp_0.arg1 = 300;
     s.pc = 36; return s.tmp_0;
   case 36:
@@ -843,25 +843,25 @@ switch (step) {
     s.tmp_0 = controller_Button_onEvent__P56010_mk(s);
     s.tmp_0.arg0 = globals.A___55976;
     s.tmp_0.arg1 = 2049;
-    s.tmp_0.arg2 = inline__P58994;
+    s.tmp_0.arg2 = inline__P86770;
     s.pc = 37; return s.tmp_0;
   case 37:
     r0 = s.retval;
     s.tmp_0 = sprites_onOverlap__P56150_mk(s);
     s.tmp_0.arg0 = globals.Player___56170;
     s.tmp_0.arg1 = 1;
-    s.tmp_0.arg2 = inline__P59002;
+    s.tmp_0.arg2 = inline__P86778;
     s.pc = 38; return s.tmp_0;
   case 38:
     r0 = s.retval;
     s.tmp_0 = game_onUpdate__P56593_mk(s);
-    s.tmp_0.arg0 = inline__P59008;
+    s.tmp_0.arg0 = inline__P86784;
     s.pc = 39; return s.tmp_0;
   case 39:
     r0 = s.retval;
     s.tmp_0 = game_onUpdateInterval__P56594_mk(s);
     s.tmp_0.arg0 = 1000;
-    s.tmp_0.arg1 = inline__P59019;
+    s.tmp_0.arg1 = inline__P86795;
     s.pc = 40; return s.tmp_0;
   case 40:
     r0 = s.retval;
@@ -869,13 +869,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-_main___P73704.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
-_main___P73704.continuations = [  ]
+_main___P86853.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
+_main___P86853.continuations = [  ]
 
-function _main___P73704_mk(s) {
+function _main___P86853_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P73704, depth: s.depth + 1,
+        parent: s, fn: _main___P86853, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -901,7 +901,7 @@ const _hex56929 = pxsim.BufferMethods.createBufferFromHex("870420002000000000000
 const _hex56932 = pxsim.BufferMethods.createBufferFromHex("870420002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000cc00000000000000b0bbbbbbbbcb00c0cd000000000000001bddddddddbd0c1ccd000000000000b011cbccccccbc0c1ccd000000000000b01d6c666666bc0cbccd000000000000b01d6c616661bc0c1ccd000000000000b01d6c161666bccc1bcd000000000000b01d6c666166bcccbbcd000000000000b01d6c666666bccc1bcd000000000000b01d6c666661bccc1bcd000000000000b01d6c666661bcccbbcd000000000000b01d6c666661bccc1bcd000000000000b01d6c666666bc0c1ccd000000000000b01dcbccccccbc0cbccd000000000000c0b1bbbbbbbbbb0cdccb000000000000c0bbbbbbbbbbcb00dc0c00000000000000cccccccccc0c00cc000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
 const _hex56935 = pxsim.BufferMethods.createBufferFromHex("87042000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004004000000000000000000000000000054450000000000000000000000440b00bbbb00b0440000000000000040550b00000000b0550400000000000040b5000044bb00005b04000000000000b00b0044ddddbb00b00b0000000000000000405d55d5dd0b00000000000000000000d4555555ddbd0000000000000000000054555555d5bd0000000000000000b44055555555d5dd0b4b000000000040b54055555555d5dd0b5b040000000040b54055555555d5dd0b5b040000000000b44055115555d5dd0b4b000000000000000054115555d5bd00000000000000000000d4555555ddbd00000000000000000000405d55d5dd0b0000000000000000b00b0044ddddbb00b00b00000000000040b5000044bb00005b0400000000000040550b00000000b0550400000000000000440b00bbbb00b0440000000000000000000000544500000000000000000000000000004004000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
 const _hex56938 = pxsim.BufferMethods.createBufferFromHex("870420002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbb00000000000000000000000000b055bb00bbbbbb000000000000000000b0b5bdbcbbbbddcb0000000000000000b0dbcb5b5555bbdd0c00000000000000b0cbdcbdbb5b55dbcd0000000000000000c0dddb11d15bb5bd0c00000000000000bbbd111111b155bb0c00000000000000db1b111111115bb5cb00000000000000db1bb11d1199b9d5cb00000000000000db1b11bb9199b955cb000000000000005b1b11b19b99995bcb000000000000005b1d1111bb99995ccb00000000000000b0b511bbbb99995ccb00000000000000b0d51d919999d95b0b00000000000000005bdb919999c9d50b0000000000000000b0d51b99d9bcb5000000000000000000005bd5bbbc550b00000000000000000000b05b5555bd000000000000000000000000b0bbbb00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex58983 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000001011000000000000d011010000000000d11d010000000010111d51050000001011d101050000001011d1010500001011111d010000201111d11d51050022411111110105002011110100000500000051000000000000005000000000000000000000000000")
+const _hex86761 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000000000000000000001001000000000000d011000000000000d111010000000000111d11000000001011d111550000001011d111500000001011d111500000101111dd110000201111d11d51050022411111110105002011110100000500000051000000000000005000000000000000000000000000")
 
 
 
@@ -1464,7 +1464,7 @@ function inline__P57219_mk(s) {
 
 
 
-function inline__P58994(s) {
+function inline__P86770(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1475,7 +1475,7 @@ switch (step) {
   case 0:
 
     s.tmp_0 = Sprite_vy__P56088_mk(s);
-    s.tmp_0.arg0 = globals.mySprite___58980;
+    s.tmp_0.arg0 = globals.mySprite___86758;
     s.tmp_0.arg1 = -100;
     s.pc = 1; return s.tmp_0;
   case 1:
@@ -1484,12 +1484,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P58994.info = {"start":857,"length":43,"line":29,"column":52,"endLine":32,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P86770.info = {"start":857,"length":43,"line":29,"column":52,"endLine":32,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P58994_mk(s) {
+function inline__P86770_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P58994, depth: s.depth + 1,
+        parent: s, fn: inline__P86770, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
 } }
@@ -1498,7 +1498,7 @@ function inline__P58994_mk(s) {
 
 
 
-function inline__P59002(s) {
+function inline__P86778(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1523,12 +1523,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P59002.info = {"start":965,"length":65,"line":36,"column":1,"endLine":38,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
+inline__P86778.info = {"start":965,"length":65,"line":36,"column":1,"endLine":38,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
 
-function inline__P59002_mk(s) {
+function inline__P86778_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P59002, depth: s.depth + 1,
+        parent: s, fn: inline__P86778, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   arg0: undefined,
@@ -1539,7 +1539,7 @@ function inline__P59002_mk(s) {
 
 
 
-function inline__P59008(s) {
+function inline__P86784(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1550,7 +1550,7 @@ switch (step) {
   case 0:
 
     s.tmp_2 = Sprite_top__P56109_mk(s);
-    s.tmp_2.arg0 = globals.mySprite___58980;
+    s.tmp_2.arg0 = globals.mySprite___86758;
     s.pc = 5; return s.tmp_2;
   case 5:
     r0 = s.retval;
@@ -1563,7 +1563,7 @@ switch (step) {
     { step = 2; continue; }
   case 1:
     s.tmp_4 = Sprite_bottom__P56111_mk(s);
-    s.tmp_4.arg0 = globals.mySprite___58980;
+    s.tmp_4.arg0 = globals.mySprite___86758;
     s.pc = 6; return s.tmp_4;
   case 6:
     r0 = s.retval;
@@ -1586,12 +1586,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P59008.info = {"start":1046,"length":86,"line":39,"column":14,"endLine":42,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P86784.info = {"start":1046,"length":86,"line":39,"column":14,"endLine":42,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P59008_mk(s) {
+function inline__P86784_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P59008, depth: s.depth + 1,
+        parent: s, fn: inline__P86784, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -1606,7 +1606,7 @@ function inline__P59008_mk(s) {
 
 
 
-function inline__P59019(s) {
+function inline__P86795(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1616,18 +1616,18 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) re
 switch (step) {
   case 0:
 
-    s.projectile___59020 = undefined;
+    s.projectile___86796 = undefined;
     s.tmp_0 = sprites_createProjectileFromSide__P56076_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex59023);
+    r0 = pxsim.image.ofBuffer(_hex86799);
     s.tmp_0.arg0 = r0;
     s.tmp_0.arg1 = -100;
     s.tmp_0.arg2 = 0;
     s.pc = 1; return s.tmp_0;
   case 1:
     r0 = s.retval;
-    s.projectile___59020 = (r0);
+    s.projectile___86796 = (r0);
     s.tmp_0 = Sprite_y__P56084_mk(s);
-    s.tmp_0.arg0 = s.projectile___59020;
+    s.tmp_0.arg0 = s.projectile___86796;
     r0 = pxsim.Math_.randomRange(40, 80);
     s.tmp_0.arg1 = r0;
     s.pc = 2; return s.tmp_0;
@@ -1637,18 +1637,18 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P59019.info = {"start":1166,"length":8134,"line":47,"column":28,"endLine":251,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P86795.info = {"start":1166,"length":7934,"line":47,"column":28,"endLine":246,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P59019_mk(s) {
+function inline__P86795_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P59019, depth: s.depth + 1,
+        parent: s, fn: inline__P86795, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
-  projectile___59020: undefined,
+  projectile___86796: undefined,
 } }
 
-const _hex59023 = pxsim.BufferMethods.createBufferFromHex("87041000c80000000000000000aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0a00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a0aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa000000000000000a00000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000a0000000000000000a00000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000a0000000000000000a00000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000a0000000000000000a00000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000a0000000000000000a00000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000a0000000000000000a00000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000a0000000000000000a00000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000a0000000000000000a00000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000a0000000000000000a00000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000a0000000000000000a00000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000a0000000000000000a00000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000a0000000000000000a00000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000a0000000000000000a00000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000a0000000000000000a00000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000a000000000000000aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0a00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a0aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0000")
+const _hex86799 = pxsim.BufferMethods.createBufferFromHex("87041000c3000000aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0000000000000000000000000000000000000000000000000000000000000000a0aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0a0000aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0000000000000000000000000000000000000000000000000000000000000000a0aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0a0000aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0000000000000000000000000000000000000000000000000000000000000000a0aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0a0000aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0000000000000000000000000000000000000000000000000000000000000000a0aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0a0000aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0000000000000000000000000000000000000000000000000000000000000000a0aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0a0000aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0000000000000000000000000000000000000000000000000000000000000000a0aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0a0000aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0000000000000000000000000000000000000000000000000000000000000000a0aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0a0000aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0000000000000000000000000000000000000000000000000000000000000000a0aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0a0000aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0000000000000000000000000000000000000000000000000000000000000000a0aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0a0000aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0000000000000000000000000000000000000000000000000000000000000000a0aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0a0000aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0000000000000000000000000000000000000000000000000000000000000000a0aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0a0000aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0000000000000000000000000000000000000000000000000000000000000000a0aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0a0000aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0000000000000000000000000000000000000000000000000000000000000000a0aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0a0000aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0000000000000000000000000000000000000000000000000000000000000000a0aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0a0000aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0000000000000000000000000000000000000000000000000000000000000000a0aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0a0000aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0000000000000000000000000000000000000000000000000000000000000000a0aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0a0000")
 
 
 
@@ -47039,7 +47039,7 @@ const effects_SceneAnchor__C57139_VT = mkVTable({
   },
 });
 
-const breakpoints = setupDebugger(1, ["mySprite___58980"])
+const breakpoints = setupDebugger(1, ["mySprite___86758"])
 
-return _main___P73704
+return _main___P86853
 })
