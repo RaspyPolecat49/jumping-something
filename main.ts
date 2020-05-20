@@ -44,71 +44,71 @@ game.onUpdateInterval(1000, function () {
         a a a a a a a a a a a a a a a a
         a a a a a a a a a a a 7 a a a a
         a a a a a a a a a 7 7 7 a a a a
-        a a a a a a 7 7 7 a 7 7 a a a a
-        7 7 a a a a 7 7 7 7 7 7 a a a a
-        a 7 7 a 7 7 7 7 7 a 7 7 a a a a
-        7 7 7 7 7 7 7 7 7 7 7 7 a a a a
+        a a a a a a 7 7 6 a 7 7 a a a a
+        7 7 a a 6 6 6 6 7 7 7 7 a a a a
+        a 7 7 a 7 7 7 7 7 a 6 7 a a a a
+        7 7 7 7 7 7 7 6 6 6 7 7 a a a a
         7 7 7 7 7 7 7 7 7 7 a a a a a a
-        7 7 7 7 7 7 7 7 a a a a a a a a
-        a a 7 7 7 7 a a a a a a a a a a
-        a a a 7 7 7 7 a a a a a a a a a
-        a a a a 7 7 7 7 7 a a a a a a a
-        a a a a a 7 7 7 7 7 a a a a a a
-        a a a a a a a 7 7 7 7 a a a a a
-        a a a a a a a 7 7 7 7 a a a a a
-        a a a a a a a a 7 7 7 a 7 a a a
+        7 6 7 7 7 7 7 7 a a a a a a a a
+        a a 6 7 7 7 a a a a a a a a a a
+        a a a 6 7 7 7 a a a a a a a a a
+        a a a a 6 6 7 7 7 a a a a a a a
+        a a a a a 6 6 7 7 7 a a a a a a
+        a a a a a a a 6 7 7 7 a a a a a
+        a a a a a a a 7 6 7 7 a a a a a
+        a a a a a a a a 6 7 7 a 7 a a a
         a a a a a a a a 7 7 7 7 7 7 a a
-        a a a a a a a a a 7 7 7 7 7 7 a
+        a a a a a a a a a 7 7 6 7 7 7 a
         a a a a a a a a a 7 7 7 7 7 7 7
-        a a a a a a a a a a 7 7 7 7 7 7
-        a a a a a a a a a a 7 a 7 7 7 7
-        a a a a a a a a a a 7 a 7 7 7 a
-        a a a a a a a a a a 7 a 7 7 7 7
-        a a a a a a a a a a a 7 a a 7 7
-        a a a 7 a a a a a a a 7 a a a a
-        a a a 7 7 7 7 a a a a 7 7 a a a
-        a a a 7 7 7 7 7 a a a 7 7 7 a a
-        a a a 7 7 7 a 7 7 a a a 7 a a a
+        a a a a a a a a a a 7 6 7 7 7 7
+        a a a a a a a a a a 7 a 7 7 6 7
+        a a a a a a a a a a 7 a 7 7 6 a
+        a a a a a a a a a a 7 a 7 7 6 7
+        a a a a a a a a a a a 6 a 6 7 7
+        a a a 7 a a a a a a a 7 6 6 a a
+        a a a 7 7 7 7 a a a a 7 6 a a a
+        a a a 7 7 7 7 7 a a a 6 6 7 a a
+        a a a 7 7 7 a 7 7 a a a 6 a a a
         a a a a 7 7 7 7 7 a a a 7 a a a
-        a a a a a 7 a 7 a a 7 a 7 a a a
-        a a a a a 7 7 7 7 a 7 7 7 7 7 a
-        a a a a a 7 7 a 7 7 7 a 7 a a a
-        a a a a a a a 7 a 7 7 7 7 a a a
-        a a a a a a a a 7 a a a 7 a a a
-        a a a a a a a a a a a a 7 7 a a
-        a a a a a 7 7 a a a a a a a a a
-        a a a a 7 a 7 7 7 a a a 7 a a a
-        a a a a a a 7 7 7 a a a a a a a
-        a a a e a 7 7 7 7 7 a a a a a 7
-        a e e e a 7 a 7 7 e 7 a a a 7 7
-        e e e e e 7 a 7 7 7 e a 7 7 7 7
-        e e e a e 7 7 7 7 a e 7 a 7 7 7
-        e e e a e e 7 7 a 7 e 7 a 7 a a
-        e e e a a e e e e e e e 7 a a a
-        e a e a e e e a 7 7 7 e e a a e
-        e e e a e e e e e e e e e a a e
-        e a e 7 e e e e 7 e e a e a e e
-        e a e a 7 7 7 7 a 7 7 a e e e e
-        e a a e a 7 a 7 7 7 7 7 a e e e
-        e e a e e 7 a 7 7 7 7 7 7 e e e
-        e e 7 e e e a a a 7 7 7 a e e e
-        e a 7 e e e e e a e e e 7 e e e
-        e e 7 e e a e e e a e e e e e e
-        e e e e e e e e e e e e e e e e
-        e 7 e e e e a e e e e a e e e e
+        a a a a a 7 a 7 6 a 7 a 7 a a a
+        a a a a e 7 7 7 7 a 7 7 7 7 7 a
+        a a a a e 7 7 a 7 7 6 a 7 a a a
+        a a a a a a a 6 a 7 7 7 7 a a a
+        a a a a a a a 6 7 a a e e e e e
+        a a a a a a e a a e e a 7 7 a a
+        a a a a a e e 7 e e e e e a a a
+        a e e e e e 7 7 7 a a a 7 a 7 7
+        a a a a e a 7 7 7 a a a a 7 a 7
+        a e a e e e 7 6 7 e a a 7 a 6 7
+        a e e e a 7 a e e e e e a a 7 7
+        e e e e e 7 e e e e e 7 7 7 7 7
+        e e e e e 7 7 7 7 a 7 7 7 6 7 7
+        e e e a e e 7 6 6 7 e 7 7 7 a a
+        e e e a a e 6 e 6 e 7 7 7 a a a
+        e a e a e e 6 7 6 7 7 7 e a a e
+        e e e a e 6 e 6 7 7 6 e e a e e
+        e a e 7 e e 7 7 7 e e a e e e e
+        e 6 e a 7 7 7 7 a 7 7 a e e e e
+        e a a 7 7 7 7 6 6 7 7 7 a e e e
+        e e 7 e 7 7 6 6 6 6 7 7 7 e e e
+        e e 7 7 7 e 6 6 6 6 6 7 a e e e
+        e a 7 7 7 6 6 e a 6 e e 7 e e e
+        7 7 7 e 6 a e e e a e e e e e e
+        7 7 e e e e e e e e e e e e e e
+        7 7 e e e e a e e e e a e e e e
         e 7 e e e e e e e e e e e e e e
         e 7 e e e e e e e e e e e e e e
         e e 7 e e e e e e e e e e e e e
         e 7 a e e 7 e e e e e e e a e e
-        e 7 a e e 7 e e e e a e e e e a
-        7 a e e e e a e e e e e e e e e
-        7 7 e e e e 7 a e e e e e 7 e a
-        7 7 7 a e e 7 7 e e a a e 7 a e
-        7 7 7 7 7 7 7 e e e 7 7 e 7 7 e
-        7 7 7 7 7 e e e 7 7 e e e 7 7 e
-        7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7
-        7 7 7 7 7 7 7 e 7 7 7 7 7 7 . .
-        7 7 7 7 7 7 . 7 7 7 7 7 . . . .
+        6 7 a e e 7 e e e e a e e e e a
+        7 6 6 e e e a e e e e e 6 e e e
+        7 7 e 6 6 6 7 a e e e e e 7 e a
+        7 6 7 6 e e 6 6 e e a a 6 7 a e
+        7 6 6 7 7 6 7 6 6 6 6 7 e 7 7 e
+        6 6 6 7 7 e e e 6 6 e 6 6 7 7 e
+        7 6 7 7 7 6 6 6 6 6 6 6 7 7 7 7
+        7 6 6 6 6 7 7 e 7 7 7 7 7 7 . .
+        7 7 7 7 7 6 6 7 7 7 7 7 . . . .
         . . e . 7 . . e . 7 7 7 . . . .
         . . . 7 7 . . e . . 7 . e . . .
         . . e 7 . . . e . . 7 . . . . .
@@ -166,13 +166,13 @@ game.onUpdateInterval(1000, function () {
         . . . . . . . . . . . . . . . .
         . . . . . . . . . . . . . . . .
         . . . . . . . . . . . . . . . .
-        . . . . . . . . . . . . . . . .
-        . . . . . . . . . . . . . . . .
-        . . . . . . . . . . . . . . . .
-        . . . . . . . . . . . . . . . .
-        . . . . . . . . . . . . . . . .
-        . . . . . . . . . . . . . . . .
-        7 7 7 7 7 7 . 7 7 . . . . . . .
+        . 7 7 . 7 . e . . . . . . . . .
+        . . 7 7 7 . 7 7 . . . . . e . .
+        . . 7 7 7 . . . . 7 . . 7 . 7 .
+        . 7 . . 7 . . . . 7 7 . 7 . 7 .
+        . . . 7 7 . 7 7 . 7 . 7 7 . . .
+        . . . . e 7 7 . . 7 7 7 7 . . .
+        7 7 7 7 7 7 7 7 7 . . . 7 7 . .
         7 4 7 9 7 7 7 7 2 7 7 7 7 7 1 .
         7 7 7 3 9 9 7 7 7 1 7 2 7 5 7 7
         7 7 1 7 4 3 2 7 7 2 3 7 7 4 7 7
@@ -195,47 +195,47 @@ game.onUpdateInterval(1000, function () {
         e e e a e a 7 a e e e e 7 e e e
         e e e 7 a e 7 e e e e e 7 7 e a
         e a 7 7 a e e e e e e e e e e e
-        e e a 7 a e e a a a e e e a e a
-        e e e e 7 e a a a e a e a a e a
-        e e a 7 a e a a a a a a a a e a
-        e e a 7 e e a a a e a a a a a a
-        e a 7 7 a e a a a a a a a a a a
-        e a 7 a a e a a a a e a a a a a
-        a e a a a e a a a a a a a a a a
-        a a a a e a a a a e a a a a a a
-        a a a e a a a a a a a a a a a a
-        a a a a a a a a a a a a a a a a
-        a e a a a a a a a a a a a a a a
-        a a a a e a a a a a a a a a a a
-        a a a a a a a a a a a a a a a a
-        a a a a a a a a a a a a a a a a
-        a a a a a a a a a a a a a a a a
-        a a a a a a a a a a a a a a a a
-        a a a a a a a a a a a a a a a a
-        a a a a a a a a a a a a a a a a
-        a a a a a a a a a a a a a a a a
-        a a a a a a a a a a a a a a a a
-        a a a a a a a a a a a a a a a a
-        a a a a a a a a a a a a a a a a
-        a a a a a a a a a a a a a a a a
-        a a a a a a a a a a a a a a a a
-        a a a a a a a a a a a a a a a a
-        a a a a a a a a a a a a a a a a
-        a a a a a a a a a a a a a a a a
-        a a a a a a a a a a a a a a a a
-        a a a a a a a a a a a a a a a a
-        a a a a a a a a a a a a a a a a
-        a a a a a a a a a a a a a a a a
-        a a a a a a a a a a a a a a a a
-        a a a a a a a a a a a a a a a a
-        a a a a a a a a a a a a a a a a
-        a a a a a a a a a a a a a a a a
-        a a a a a a a a a a a a a a a a
-        a a a a a a a a a a a a a a a a
-        a a a a a a a a a a a a a a a a
-        a a a a a a a a a a a a a a a a
-        a a a a a a a a a a a a a a a a
-        a a a a a a a a a a a a a a a a
+        e e a 7 a e e a a a e e e e e a
+        e e e e e e e e a e a e a e e a
+        e e e 7 a e a e e e a a e e e a
+        e e a e e e e e e e e a e e a a
+        e a 7 7 e e e e a a a a e e e a
+        e a 7 e e e e e e a e e e a a a
+        a e a e e e e e e e e a e a a e
+        a a a a e e e e e e e e e e e a
+        e a a e e a e e a a e e e e a a
+        a e e a e e e e e e a e e e a a
+        e e e e a e e e e e a e a e e a
+        a e e e e e e e a a e e e e e e
+        e a a e e e e a e e e e e e e a
+        a e e a e e e e a e e e e a e a
+        e e e e e e e e e e e a e e a a
+        a a a e e e e e e e e a a e e a
+        a e e a a e e e e e e e e e e e
+        a a a e e e a e e e a e e e e e
+        a a e a e e e e e e e e e e a a
+        e e e a a a e e e e e a e e a a
+        a a a a a a a e e e e e e e a a
+        a a a e a a e e e e a e e e a a
+        e e e e e e e a e a e a a e a a
+        a e e e a e e e e a a a a e e a
+        e e a a e e e e e e e e a e e a
+        a a a e e e e a e e e a e e e a
+        a e a a a a e e e a a e e e a a
+        a a a a a a a a e a e a e a e a
+        a a a a a a e a e a e a a a a a
+        e a e e a a e a a e e a a a a a
+        e e a e a a e a a e a a a a a a
+        a e a e a e e a a a a a a a a a
+        a a a e a a a a e a a a e a a a
+        e e a a e a a a a a a a e e a a
+        a a a a a a a a a a a e a a a a
+        a a a a a a e e a a a e a a a a
+        a a a a a e e a a a a a e a a a
+        a a a a a a a a a a a a e a a a
+        a a a a a a a a a e a a a e a a
+        a a a a a a a a a a a a a e a a
+        a a a a a a a a a a a a a a e a
         a a a a a a a a a a a a a a a a
         a a a a a a a a a a a a a a a a
         a a a a a a a a a a a a a a a a
