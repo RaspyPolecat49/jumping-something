@@ -1,5 +1,5 @@
-// meta={"simUrl":"https://trg-arcade.userpxt.io/v0.17.8/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"0.0.5","target":"arcade","targetVersion":"0.17.8","repo":"raspypolecat49/jumping-something"}
-// total=1360688 new=5.91% cached=88.64% other=5.45%
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v0.17.8/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"0.0.6","target":"arcade","targetVersion":"0.17.8","repo":"raspypolecat49/jumping-something"}
+// total=1360687 new=5.91% cached=88.64% other=5.45%
 (function (ectx) {
 'use strict';
 const runtime = ectx.runtime;
@@ -27,7 +27,7 @@ const __this = runtime;
 const pxtrt = pxsim.pxtrt;
 let yieldSteps = 1;
 ectx.setupYield(function() { yieldSteps = 100; })
-pxsim.setTitle("jumping-something");
+pxsim.setTitle("Jumpy Chickening");
 pxsim.setConfigData({
  "37": 160,
  "38": 120
@@ -440,7 +440,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P88450(s) {
+function _main___P88515(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -871,13 +871,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-_main___P88450.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
-_main___P88450.continuations = [  ]
+_main___P88515.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
+_main___P88515.continuations = [  ]
 
-function _main___P88450_mk(s) {
+function _main___P88515_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P88450, depth: s.depth + 1,
+        parent: s, fn: _main___P88515, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -47041,5 +47041,5 @@ const effects_SceneAnchor__C57139_VT = mkVTable({
 
 const breakpoints = setupDebugger(1, ["mySprite___88369","projectile___88382"])
 
-return _main___P88450
+return _main___P88515
 })
